@@ -1,0 +1,8 @@
+[submodule "themes/jane"]
+	path = themes/jane
+	url = https://github.com/xianmin/hugo-theme-jane.git
+	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/dengziming/dengziming.github.io.git
+	branch = master
