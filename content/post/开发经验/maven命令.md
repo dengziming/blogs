@@ -129,9 +129,13 @@ https://blog.csdn.net/xktxoo/article/details/78005817
 11. java 调用 scala 代码不报错，打包报错。
 参考 http://xflin.blogspot.com/2013/08/mixed-scala-and-java-in-maven-project.html ，混合编译
 
+12. mvn 打包不下载 snapshot 的插件
+参考 https://blog.csdn.net/zcl111/article/details/80347330 ， 配置 snapshot jar
+
 ### 3.常用命令
 
 mvn -pl hadoop-yarn-project -am clean install -D maven.test.skip=true -P prod
+
 
 
 

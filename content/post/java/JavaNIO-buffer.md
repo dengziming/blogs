@@ -31,8 +31,10 @@ comment: true
 public abstract class Buffer {
 	public final int capacity( )
 	public final int position( )
-	public final Buffer position (int newPositio public final int limit( )
-	public final Buffer limit (int newLimit) public final Buffer mark( )
+	public final Buffer position (int newPositio 
+	public final int limit( )
+	public final Buffer limit (int newLimit) 
+	public final Buffer mark( )
 	public final Buffer reset( )
 	public final Buffer clear( )
 	public final Buffer flip( )
