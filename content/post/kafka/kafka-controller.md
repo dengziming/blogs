@@ -10,6 +10,27 @@ categories:
 comment: true
 ---
 
+# 分析基本的功能
+
+## 1. Controller 和 Zookeeper 交互
+
+和 zk 交互的相关功能很多，所以需要有很多个 Listener。主要有三类，Data、Child、State。
+
+DataListener 相关的有 BrokerModifications,ControllerChangeHandler,PartitionModification,PreferredReplicaElection,PartitionReassingned,ReassignedPartitionsIsrChange
+ChildListen 相关的 BrokerChangeHandler,TopicChangeHandler,LogDirEventNotificationHandler,TopicDeletionHandler
+State 相关的就是启动 Controller 的时候注册的 registerStateChangeHandler
+
+## 2. 事件处理
+
+Kafka 的 Controller 经过这么多年的修改代码已经质量很高了，所以处理的事件都放在了类最后，通过事件驱动的方式完成。
+
+## 3. 状态机
+
+
+
+# 分析几个组件
+
+
 
 # 分析几个操作的过程
 
